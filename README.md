@@ -1,11 +1,8 @@
-<<<<<<< HEAD
+
 # CodeigniterCMS
 Content Management System with codeigniter framework and Mobile App
 =======
-# CMS #
-
 Codeigniter ile websitesi oluşturmak için bir yapı sunar.
-
 
 ### Özellikler ###
 
@@ -16,5 +13,3 @@ Codeigniter ile websitesi oluşturmak için bir yapı sunar.
 * Sayfalar
 * Galeri
 * Yönetim paneli
-
->>>>>>> first commit
