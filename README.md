@@ -1,13 +1,20 @@
-# Sitelitik #
+<<<<<<< HEAD
+# CodeigniterCMS
+Content Management System with codeigniter framework and Mobile App
+=======
+# CMS #
 
-Codeigniter ile daha hızlı websitesi oluşturmak için bir yapı sunar.
+Codeigniter ile websitesi oluşturmak için bir yapı sunar.
 
 
 ### Özellikler ###
 
-* Test
+* Dil Seçenekleri
+* Arama motoru uyumu
+* Sosyal Medya Hesapları
+* Ürünler
+* Sayfalar
+* Galeri
+* Yönetim paneli
 
-
-### Notlar ###
-
-* Not
+>>>>>>> first commit
