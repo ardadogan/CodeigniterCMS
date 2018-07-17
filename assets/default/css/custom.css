@@ -1,0 +1,17 @@
+input[type=search] {border: 1px solid #eee;padding: 5px 10px;width: 100%;background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-24.png) no-repeat center right  }
+
+.product-page {  }
+	.product-list {  }
+	.product-list ul {list-style-type: none;padding: 0;padding-left: 15px;  }
+	.product-list ul li {  }
+	.product-list ul li a {color: #454545;  }
+	.product-list ul li a.active {color: red;  }
+
+
+
+.contact-page {  }
+	.contact-form {  }
+		.contact-form input, textarea {margin: 10px 0;  }
+	.contact-info {  }
+	.contact-info ul {list-style-type: none;padding: 0;  }
+	.contact-info ul li {  }

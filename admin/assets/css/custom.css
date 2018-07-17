@@ -1,0 +1,70 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+body {
+	
+}
+
+
+.home-shortcut-links {margin-top: 20px;  }
+	.home-shortcut-links ul {list-style-type: none;padding: 0;  }
+	.home-shortcut-links ul li {display: inline-block;margin-right: 20px;  }
+	.home-shortcut-links ul li a {display: block;text-align: center;border: 1px solid #fafafa;padding: 10px 20px;border-radius: 3px;box-shadow: 0 1px 2px #ddd;margin-bottom: 10px;  }
+	.home-shortcut-links ul li a img {display: inline-block;width: 60px;  }
+	.home-shortcut-links ul li a strong {margin-top: 10px;display: block;font-size: 14px;  }
+	.home-shortcut-links ul li a:hover {color: #000;opacity: 0.5;  }
+
+
+.homeShortcut {display: none;  }
+	.homeShortcut ul {padding: 0;  }
+	.homeShortcut ul li {display: inline-block;width: 30%;border: 2px solid #eee;margin: 5px;vertical-align: top;border-radius: 3px;background: #fafafa;padding: 10px;  }
+	.homeShortcut ul li a {font-weight: 600;color: #16a8dd;  }
+	.homeShortcut ul li ul {  }
+	.homeShortcut ul li ul li {display: block;width: 90%;border: none;padding: 1px;  }
+	.homeShortcut ul li ul li a {font-weight: 300;font-size: 12px;color: #454545;  }
+	.homeShortcut ul li ul li:hover a {color: #d82424;  }
+
+
+.card {box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);margin-bottom: 20px;border-radius: 3px;overflow: hidden;  }
+	.card-image {background: #fafafa;  }
+		.card-image img {width: 100%;  }
+	.card-title {padding: 10px;  }
+		.card-title h4 {margin-bottom: 0;color: #444;font-size: 18px;  }
+	.card-desc {padding: 10px;  }
+		.card-desc p {font-family: inherit;color: #454545;font-size: 13px;  }
+	.card-buttons {text-align: right;padding: 10px;  }
+		.card-buttons a {font-family: inherit;font-size: 13px;background: #fafafa;border-radius: 3px;display: inline-block;padding: 10px 20px;font-weight: 500;  }
+		.card-buttons a:hover {background: #ddd;color: #000;  }
+
+
+.tophdr {border-bottom: 0;  }
+	.tophdr {margin-bottom: 20px;  }
+	.tophdr h2 {margin: 0;font-size: 18px;  }
+	.tophdr h2 span {color: #27aae1;  }
+
+
+.jconfirm-icon-c {color: #B11B1B;  }
+.jconfirm-title {color: #343434;  }
+.jconfirm-content {color: #343434;  }
+
+
+.search-result {  }
+	.search-result ul {list-style-type: none;padding: 0;  }
+	.search-result ul li {  }
+	.search-result ul li a {display: block;margin-bottom: 10px;padding: 10px;  }
+	.search-result ul li a h4 {color: #1a0dab;font-size: 18px;  }
+	.search-result ul li a p {color: #545454;font-size: small  }
+	.search-result ul li a:hover {background: #fafafa;  }
+
+	.search-box {text-align: center;display: block;width: 100%;margin-bottom: 50px;  }
+	.search-box form {display: inline-block;width: 40%;  }
+	.search-box form input {width: 100%;border: 1px solid #ddd;padding: 10px;color: #343434;outline: none;font-size: 14px;box-shadow: 0 1px 2px #aaa;  }
+	.search-box form input:focus {border: 1px solid #4285F4;  }
+
+
+table tr td  {vertical-align: middle !important;color: #444;  }
+table tr td img {max-width: 100%;  }
+.control-label {color: #444 !important;  }

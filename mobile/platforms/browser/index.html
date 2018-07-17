@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr" ng-app="app" ng-controller="publicController" ng-cloak>
+	<head>
+		<title>Mobile App</title>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui, width=device-width, initial-scale=1.0" />
+
+		<meta name="theme-color" content="#01579b" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="yes" />
+	
+
+
+		<!--Import materialize.css-->
+
+
+		<link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+		
+		<!--Other css-->
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery-confirm.min.css" />
+
+		
+
+		<link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+
+		<link rel="stylesheet" href="assets/css/pickdate/default.css">
+		<link rel="stylesheet" href="assets/css/pickdate/default.date.css">
+
+
+		<!-- System -->
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/materialize.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery-confirm.min.js"></script>
+		<script type="text/javascript" src="assets/js/picker.date.js"></script>
+		<script type="text/javascript" src="assets/js/library.js"></script>
+
+
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="assets/js/cordova-core.js"></script>
+		<script type="text/javascript" src="assets/js/angular.min.js"></script>
+		<script type="text/javascript" src="assets/js/angular-route.js"></script>
+
+		<!-- System Library İmports -->
+
+		<script src="//cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.7.1/angular-material-icons.min.js"></script> 
+		 <script async defer  src="https://maps.googleapis.com/maps/api/js"> </script>
+
+		<!-- Import Applications -->
+			<script type="text/javascript" src="app/app.module.js"></script>
+			<script type="text/javascript" src="app/app.routes.js"></script>
+			<script type="text/javascript" src="app/app.controller.js"></script>
+			
+		<!-- Import Page Controllers  -->
+			<script type="text/javascript" src="app/components/home/homeController.js"></script>
+			
+			<script type="text/javascript" src="app/components/pages/pagesController.js"></script>
+			<script type="text/javascript" src="app/components/pages/pagesDetailController.js"></script>
+			
+			<script type="text/javascript" src="app/components/gallery/photosController.js"></script>
+			
+			<script type="text/javascript" src="app/components/product/productController.js"></script>
+			<script type="text/javascript" src="app/components/product/productDetailController.js"></script>
+			<script type="text/javascript" src="app/components/product/search/productSearchController.js"></script>
+
+		<!-- Content 
+			<script type="text/javascript" src="app/components/content/cnt1/cnt1Controller.js"></script>
+			<script type="text/javascript" src="app/components/content/cnt2/cnt2Controller.js"></script>
+			<script type="text/javascript" src="app/components/content/cnt3/cnt3Controller.js"></script>
+			
+		
+
+			<script type="text/javascript" src="app/components/products/prd1/prd1Controller.js"></script>
+
+
+			<script type="text/javascript" src="app/components/contact/cnt1/contact1Controller.js"></script>
+			<script type="text/javascript" src="app/components/contact/us/usController.js"></script>
+		-->
+		
+
+		<!-- Blank -->
+			<script type="text/javascript" src="app/components/blank/blankController.js"></script>
+
+
+			<script>
+
+				var exitApp = true;
+
+				cordApp.deviceStart();
+
+				
+			</script>
+
+	</head>
+	<body>
+
+
+	<div class="appLoaderScreen">
+		<div class="aLSAnimation">
+			<div class="preloader-wrapper small active">
+				<div class="spinner-layer spinner-blue-only">
+					<div class="circle-clipper left">
+						<div class="circle"></div>
+					</div>
+					<div class="gap-patch">
+						<div class="circle"></div>
+					</div>
+					<div class="circle-clipper right">
+						<div class="circle"></div>
+					</div>
+				</div>
+			</div>
+
+			<strong>Yükleniyor Lütfen Bekleyin</strong>
+		</div>
+	</div>
+	
+
+	<div ng-view></div>
+
+	
+	</body>
+</html>
